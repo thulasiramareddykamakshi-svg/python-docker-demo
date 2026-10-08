@@ -25,7 +25,7 @@ RUN useradd --create-home --shell /bin/bash appuser \
 USER appuser
 
 # Document application port
-EXPOSE 5000
+EXPOSE 8000
 
 # Start application
 CMD ["python", "app.py"]
